@@ -1,0 +1,75 @@
+.user-container{
+    height: 100vh;
+    width: 300px;
+    background-color: #E6ECF2;
+    margin: auto;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+    .user-content{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        overflow-y: auto;
+
+        img{
+            border-radius: 200px;
+            width: 200px;
+            height: 200px;
+            margin : 5px 0
+            
+      
+        }
+
+
+        .user-repos{
+            border-radius: 5px;
+            width: 100%;
+            font-size: 20px;
+            text-align: center;
+            position: relative;
+            line-height: normal;
+            margin: 5px 0;
+
+            span{
+                position: absolute;
+                top: 0;
+                left: 0;
+                font-size: 13px;
+                color: gray;
+
+            }
+        }
+
+   
+
+        
+    }
+
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

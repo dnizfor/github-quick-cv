@@ -1,0 +1,37 @@
+.repo-container{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: normal;
+    height: 60px;
+    position: relative;
+
+    &:hover{
+        background-color: #91B0E8;
+    }
+
+    .repo-title{
+        text-align: left;
+        margin-left: 10px;
+        height: 25px;
+        overflow: hidden;
+    }
+
+    .repo-detail{
+        text-align: left;
+        margin-left: 10px;
+        margin-top: -4px;
+        font-size: 15px;
+        color: grey;
+        height: 22px;
+        overflow: hidden;
+    }
+    .repo-language{
+        font-size: 14px;
+        position: absolute;
+        right: 5px;
+        bottom: 2px;
+    }
+
+ 
+}
