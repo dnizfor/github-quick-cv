@@ -3,7 +3,7 @@
 Create CV from your github account quickly!
 
 ## Development
-- React / Reduc
+- React 
 - TypeScript
 - SaSS
 
