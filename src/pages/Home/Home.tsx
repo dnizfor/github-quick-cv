@@ -5,7 +5,7 @@ import gitIcon from '../../assets/cv.png'
 export default function Home() {
 
   const clickHandler = (event: React.MouseEvent<HTMLElement>) : void =>{
-    window.open("/unknwon", '_blank');
+    window.open("/dnizfor", '_blank');
 }
     
   return (
