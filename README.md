@@ -2,7 +2,7 @@
 ![](https://user-images.githubusercontent.com/86577022/161242690-295ce840-3b2e-4e27-bfce-52937d98fedc.png)
 Create CV from your github account quickly!
 
-https://github-quick-cv.herokuapp.com/
+https://github-quick-cv.vercel.app/
 
 ## Development
 - React 
